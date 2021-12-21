@@ -1,5 +1,6 @@
 package logica;
 
+import java.io.Serializable;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -20,7 +21,7 @@ import javax.persistence.TemporalType;
  * @author FEDEX
  */
 @Entity
-public class Client {
+public class Client implements Serializable {
     
     @Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
