@@ -1,0 +1,13 @@
+.container {
+    width: 100%;
+}
+
+.search  {
+    display: flex;
+}
+
+.form  {
+    display: flex;
+    padding-left: 40%;
+}
+
